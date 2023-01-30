@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:paddingTop="40dp"
+        android:drawableTop="@drawable/home"
+        android:text="Acceuil"
+        android:textStyle="bold"
+        android:background="@color/blue_bg"
+        android:gravity="center"
+        android:drawableTint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:paddingTop="40dp"
+        android:drawableTop="@drawable/message"
+        android:text="Message"
+        android:textStyle="bold"
+        android:background="@color/blue_bg"
+        android:gravity="center"
+        android:drawableTint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:paddingTop="40dp"
+            android:drawableTop="@drawable/account_circle"
+            android:text="Profil"
+            android:textStyle="bold"
+            android:background="@color/blue_bg"
+            android:gravity="center"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:paddingTop="40dp"
+            android:drawableTop="@drawable/settings"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:background="@color/blue_bg"
+            android:gravity="center"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
